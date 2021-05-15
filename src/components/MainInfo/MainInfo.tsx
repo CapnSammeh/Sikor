@@ -1,11 +1,11 @@
 import React from 'react';
-import styles from './Info_1.module.css';
+import styles from './MainInfo.module.css';
 
 import { Typography } from "@material-ui/core";
 
-const Info_1: React.FC = () => {
+const MainInfo: React.FC = () => {
   return(
-  <div className={styles.Info_1}>
+  <div className={styles.MainInfo}>
     <Typography variant="h5">FOR SALE</Typography>
     <Typography variant="h6">2001</Typography>
     <Typography variant="h6">TSN 3,020</Typography>
@@ -15,4 +15,4 @@ const Info_1: React.FC = () => {
   );
 };
 
-export default Info_1;
+export default MainInfo;

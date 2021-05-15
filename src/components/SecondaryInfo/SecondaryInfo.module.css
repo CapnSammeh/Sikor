@@ -1,0 +1,21 @@
+.SecondaryInfo {
+    text-align: center;
+    background-color: rgba(53, 123, 235);
+    border-radius: 0em 1em 1em 0em;
+    padding: 1em;
+    max-width: fit-content;
+    display: inline-flex;
+    height: auto;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h5 {
+    line-height: 2em !important;
+    font-weight: bold !important;
+}
+
+h6 {
+    font-style: italic !important;
+}

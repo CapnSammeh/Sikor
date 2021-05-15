@@ -1,0 +1,7 @@
+.SecondaryImage {}
+
+.Image {
+    height: 50%;
+    object-fit: cover;
+    display: inline-flex;
+}

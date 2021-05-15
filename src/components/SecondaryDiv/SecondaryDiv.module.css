@@ -1,0 +1,5 @@
+.SecondaryDiv {
+    position: relative;
+    padding: 0.25em;
+    display: flex;
+}

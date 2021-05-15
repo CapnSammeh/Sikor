@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './MainImage.module.css';
 
 import Image from 'material-ui-image';
-import Info_1 from '@components/Info_1/Info_1';
+import MainInfo from '@components/MainInfo/MainInfo';
 
 const MainImage: React.FC = () => {
   return (
@@ -12,7 +12,7 @@ const MainImage: React.FC = () => {
         aspectRatio={1.77777777778}
         className={styles.MainImage}
       />
-      <Info_1 />
+      <MainInfo />
     </div>
   );
 };
