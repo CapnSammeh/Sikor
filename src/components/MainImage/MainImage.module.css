@@ -1,0 +1,9 @@
+.MainImage {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.Container {
+    position: relative;
+}
